@@ -8,11 +8,9 @@ import {
 } from 'reselect';
 import {
   getLocalizedElement,
-  getIndexForLanguageCode,
   objectValuesToString,
   validateOptions,
   getTranslationsForLanguage,
-  warning,
   getSingleToMultilanguageTranslation
 } from './utils';
 import type { Selector, SelectorCreator } from 'reselect';

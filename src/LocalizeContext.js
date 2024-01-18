@@ -1,5 +1,4 @@
 // @flow
-import React from 'react';
 import createReactContext, { type Context } from 'create-react-context';
 import { createSelector, type Selector } from 'reselect';
 import {

@@ -1,22 +1,10 @@
 // @flow
 import * as React from 'react';
-import PropTypes from 'prop-types';
-import {
-  getTranslate,
-  addTranslationForLanguage,
-  getLanguages,
-  getOptions,
-  getActiveLanguage,
-  getTranslationsForActiveLanguage
-} from './localize';
-import { get, storeDidChange } from './utils';
+import { get } from './utils';
 import { LocalizeContext, type LocalizeContextProps } from './LocalizeContext';
-import { withLocalize } from './withLocalize';
 import type {
   TranslateOptions,
   TranslatePlaceholderData,
-  TranslateFunction,
-  Language
 } from './localize';
 
 export type TranslateProps = {

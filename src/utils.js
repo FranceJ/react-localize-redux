@@ -1,9 +1,5 @@
 // @flow
 import React from 'react';
-import {
-  defaultTranslateOptions,
-  type MultipleLanguageTranslation
-} from './localize';
 import type {
   TranslatePlaceholderData,
   TranslatedLanguage,
